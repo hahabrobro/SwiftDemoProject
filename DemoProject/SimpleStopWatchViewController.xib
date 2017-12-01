@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimpleStopWatchViewController" customModule="DemoProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Need help with your coding problems? We’ll find you the right developer who can help you in 15 minutes." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Okd-T7-LHK">
+                    <rect key="frame" x="0.0" y="40" width="375" height="72"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="ctC-Zq-QBE">
+                    <rect key="frame" x="62.5" y="120" width="250" height="166.5"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user3" translatesAutoresizingMaskIntoConstraints="NO" id="PlY-Zg-ZjZ">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="166.5"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user2" translatesAutoresizingMaskIntoConstraints="NO" id="2yC-gn-wGE">
+                            <rect key="frame" x="150" y="0.0" width="100" height="166.5"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ctC-Zq-QBE" secondAttribute="height" multiplier="3:2" id="bKf-Ug-HHe"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="6kv-IX-TrI">
+                    <rect key="frame" x="147.5" y="587" width="80" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5e-Ok-81l">
+                            <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                            <state key="normal" title="Try it !"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="88z-dg-Ozf">
+                            <rect key="frame" x="0.0" y="30" width="80" height="30"/>
+                            <state key="normal" title="Maybe Late"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="6kv-IX-TrI" secondAttribute="height" multiplier="4:3" id="ULB-aK-alg"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ctC-Zq-QBE" firstAttribute="top" secondItem="Okd-T7-LHK" secondAttribute="bottom" constant="8" id="ImF-uC-u2y"/>
+                <constraint firstItem="Okd-T7-LHK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="T81-ha-nQv"/>
+                <constraint firstItem="Okd-T7-LHK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TNj-7B-JSS"/>
+                <constraint firstItem="ctC-Zq-QBE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xoe-hD-10C"/>
+                <constraint firstItem="Okd-T7-LHK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="bLR-0l-nUI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6kv-IX-TrI" secondAttribute="bottom" constant="20" id="c2Z-kU-TIC"/>
+                <constraint firstAttribute="trailing" secondItem="Okd-T7-LHK" secondAttribute="trailing" id="rvV-qM-ioe"/>
+                <constraint firstItem="6kv-IX-TrI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xs4-D5-Obl"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="23.5" y="50.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user2" width="100" height="134"/>
+        <image name="user3" width="100" height="140"/>
+    </resources>
+</document>

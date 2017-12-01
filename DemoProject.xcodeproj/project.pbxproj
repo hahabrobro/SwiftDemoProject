@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F9EEA6B1FD134C900849BFC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA691FD134C900849BFC /* PageViewController.swift */; };
+		1F9EEA6C1FD134C900849BFC /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EEA6A1FD134C900849BFC /* PageViewController.xib */; };
+		1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA6D1FD134FF00849BFC /* Page1ViewController.swift */; };
+		1F9EEA701FD134FF00849BFC /* Page1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EEA6E1FD134FF00849BFC /* Page1ViewController.xib */; };
+		1F9EEA731FD1350B00849BFC /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA711FD1350B00849BFC /* Page2ViewController.swift */; };
+		1F9EEA741FD1350B00849BFC /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EEA721FD1350B00849BFC /* Page2ViewController.xib */; };
+		1F9EEA771FD1351800849BFC /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA751FD1351800849BFC /* Page3ViewController.swift */; };
+		1F9EEA781FD1351800849BFC /* Page3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EEA761FD1351800849BFC /* Page3ViewController.xib */; };
 		1FCD639D1FCD363C00AB0DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD639C1FCD363C00AB0DBE /* AppDelegate.swift */; };
 		1FCD639F1FCD363C00AB0DBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD639E1FCD363C00AB0DBE /* ViewController.swift */; };
 		1FCD63A21FCD363C00AB0DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63A01FCD363C00AB0DBE /* Main.storyboard */; };
 		1FCD63A51FCD363C00AB0DBE /* DemoProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63A31FCD363C00AB0DBE /* DemoProject.xcdatamodeld */; };
 		1FCD63A71FCD363C00AB0DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63A61FCD363C00AB0DBE /* Assets.xcassets */; };
 		1FCD63AA1FCD363C00AB0DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63A81FCD363C00AB0DBE /* LaunchScreen.storyboard */; };
+		1FCD63B31FCD420900AB0DBE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63B11FCD420900AB0DBE /* HomePageViewController.swift */; };
+		1FCD63B41FCD420900AB0DBE /* HomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63B21FCD420900AB0DBE /* HomePageViewController.xib */; };
+		1FCD63B71FCD44F200AB0DBE /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63B51FCD44F200AB0DBE /* HomeTableViewCell.swift */; };
+		1FCD63B81FCD44F200AB0DBE /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63B61FCD44F200AB0DBE /* HomeTableViewCell.xib */; };
+		1FCD63E71FCD673A00AB0DBE /* SimpleStopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63E51FCD673A00AB0DBE /* SimpleStopWatchViewController.swift */; };
+		1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */; };
+		1FCD63EF1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */; };
+		1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F9EEA691FD134C900849BFC /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		1F9EEA6A1FD134C900849BFC /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
+		1F9EEA6D1FD134FF00849BFC /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		1F9EEA6E1FD134FF00849BFC /* Page1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page1ViewController.xib; sourceTree = "<group>"; };
+		1F9EEA711FD1350B00849BFC /* Page2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		1F9EEA721FD1350B00849BFC /* Page2ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page2ViewController.xib; sourceTree = "<group>"; };
+		1F9EEA751FD1351800849BFC /* Page3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		1F9EEA761FD1351800849BFC /* Page3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Page3ViewController.xib; sourceTree = "<group>"; };
 		1FCD63991FCD363C00AB0DBE /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCD639C1FCD363C00AB0DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCD639E1FCD363C00AB0DBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +48,14 @@
 		1FCD63A61FCD363C00AB0DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FCD63A91FCD363C00AB0DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FCD63AB1FCD363C00AB0DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCD63B11FCD420900AB0DBE /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		1FCD63B21FCD420900AB0DBE /* HomePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomePageViewController.xib; sourceTree = "<group>"; };
+		1FCD63B51FCD44F200AB0DBE /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1FCD63B61FCD44F200AB0DBE /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		1FCD63E51FCD673A00AB0DBE /* SimpleStopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleStopWatchViewController.swift; sourceTree = "<group>"; };
+		1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleStopWatchViewController.xib; sourceTree = "<group>"; };
+		1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTutorialViewController.swift; sourceTree = "<group>"; };
+		1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutolayoutTutorialViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +95,22 @@
 				1FCD63A81FCD363C00AB0DBE /* LaunchScreen.storyboard */,
 				1FCD63AB1FCD363C00AB0DBE /* Info.plist */,
 				1FCD63A31FCD363C00AB0DBE /* DemoProject.xcdatamodeld */,
+				1FCD63B11FCD420900AB0DBE /* HomePageViewController.swift */,
+				1FCD63B21FCD420900AB0DBE /* HomePageViewController.xib */,
+				1FCD63B51FCD44F200AB0DBE /* HomeTableViewCell.swift */,
+				1FCD63B61FCD44F200AB0DBE /* HomeTableViewCell.xib */,
+				1FCD63E51FCD673A00AB0DBE /* SimpleStopWatchViewController.swift */,
+				1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */,
+				1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */,
+				1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */,
+				1F9EEA691FD134C900849BFC /* PageViewController.swift */,
+				1F9EEA6A1FD134C900849BFC /* PageViewController.xib */,
+				1F9EEA6D1FD134FF00849BFC /* Page1ViewController.swift */,
+				1F9EEA6E1FD134FF00849BFC /* Page1ViewController.xib */,
+				1F9EEA711FD1350B00849BFC /* Page2ViewController.swift */,
+				1F9EEA721FD1350B00849BFC /* Page2ViewController.xib */,
+				1F9EEA751FD1351800849BFC /* Page3ViewController.swift */,
+				1F9EEA761FD1351800849BFC /* Page3ViewController.xib */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
@@ -126,9 +174,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9EEA741FD1350B00849BFC /* Page2ViewController.xib in Resources */,
+				1FCD63B41FCD420900AB0DBE /* HomePageViewController.xib in Resources */,
 				1FCD63AA1FCD363C00AB0DBE /* LaunchScreen.storyboard in Resources */,
+				1F9EEA781FD1351800849BFC /* Page3ViewController.xib in Resources */,
 				1FCD63A71FCD363C00AB0DBE /* Assets.xcassets in Resources */,
+				1F9EEA6C1FD134C900849BFC /* PageViewController.xib in Resources */,
+				1FCD63B81FCD44F200AB0DBE /* HomeTableViewCell.xib in Resources */,
+				1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */,
+				1F9EEA701FD134FF00849BFC /* Page1ViewController.xib in Resources */,
 				1FCD63A21FCD363C00AB0DBE /* Main.storyboard in Resources */,
+				1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +195,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9EEA731FD1350B00849BFC /* Page2ViewController.swift in Sources */,
+				1FCD63E71FCD673A00AB0DBE /* SimpleStopWatchViewController.swift in Sources */,
+				1FCD63EF1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift in Sources */,
+				1F9EEA771FD1351800849BFC /* Page3ViewController.swift in Sources */,
+				1FCD63B31FCD420900AB0DBE /* HomePageViewController.swift in Sources */,
+				1FCD63B71FCD44F200AB0DBE /* HomeTableViewCell.swift in Sources */,
 				1FCD639F1FCD363C00AB0DBE /* ViewController.swift in Sources */,
 				1FCD63A51FCD363C00AB0DBE /* DemoProject.xcdatamodeld in Sources */,
+				1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */,
 				1FCD639D1FCD363C00AB0DBE /* AppDelegate.swift in Sources */,
+				1F9EEA6B1FD134C900849BFC /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
