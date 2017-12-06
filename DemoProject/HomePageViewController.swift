@@ -10,12 +10,17 @@ import UIKit
 
 class HomePageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var info = [
-        [DemoProjectList.AutolayoutTutorial,DemoProjectList.PageViewControllerTutorial],
+        [
+            DemoProjectList.AutolayoutTutorial,
+            DemoProjectList.PageViewControllerTutorial,
+            DemoProjectList.AccessRemoteAPItoTableView
+        ],
         [DemoProjectList.CollectionViwe,DemoProjectList.temp1,DemoProjectList.temp2,DemoProjectList.temp3]
     ]
     enum DemoProjectList {
         case AutolayoutTutorial
         case PageViewControllerTutorial
+        case AccessRemoteAPItoTableView
         //Section 2
         case CollectionViwe
         case temp1
@@ -92,6 +97,8 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             self.navigationController?.pushViewController(AutolayoutTutorialViewController(), animated: true)
         case .PageViewControllerTutorial:
             self.navigationController?.pushViewController(PageViewController(), animated: true)
+        case .AccessRemoteAPItoTableView:
+            self.navigationController?.pushViewController(RemoteAPITableViewViewController(), animated: true)
         default:
             print(whichcase)
         }
