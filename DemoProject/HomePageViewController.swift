@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import SDWebImage
 class HomePageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var info = [
         [
@@ -15,14 +15,14 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             DemoProjectList.PageViewControllerTutorial,
             DemoProjectList.AccessRemoteAPItoTableView
         ],
-        [DemoProjectList.CollectionViwe,DemoProjectList.temp1,DemoProjectList.temp2,DemoProjectList.temp3]
+        [DemoProjectList.iBeacon]
     ]
     enum DemoProjectList {
         case AutolayoutTutorial
         case PageViewControllerTutorial
         case AccessRemoteAPItoTableView
         //Section 2
-        case CollectionViwe
+        case iBeacon
         case temp1
         case temp2
         case temp3
@@ -99,6 +99,8 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             self.navigationController?.pushViewController(PageViewController(), animated: true)
         case .AccessRemoteAPItoTableView:
             self.navigationController?.pushViewController(RemoteAPITableViewViewController(), animated: true)
+        case .iBeacon:
+            self.navigationController?.pushViewController(iBeaconViewController(), animated: true)
         default:
             print(whichcase)
         }
