@@ -33,6 +33,9 @@
 		1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */; };
 		1FCD63EF1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */; };
 		1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */; };
+		1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */; };
+		1FE286671FEF84CA0003B898 /* CoreMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */; };
+		1FE286691FEFE9390003B898 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FE286681FEFE9380003B898 /* Inceptionv3.mlmodel */; };
 		59F613E71D45549368C452F7 /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C5F37F6291EFF6A0DCD51 /* Pods_DemoProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,9 @@
 		1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleStopWatchViewController.xib; sourceTree = "<group>"; };
 		1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTutorialViewController.swift; sourceTree = "<group>"; };
 		1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutolayoutTutorialViewController.xib; sourceTree = "<group>"; };
+		1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
+		1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreMLViewController.xib; sourceTree = "<group>"; };
+		1FE286681FEFE9380003B898 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		277C5F37F6291EFF6A0DCD51 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E15255B5301EDEE9A8EAF8 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +128,8 @@
 		1FCD639B1FCD363C00AB0DBE /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				1FE286681FEFE9380003B898 /* Inceptionv3.mlmodel */,
+				1FE286631FEF842E0003B898 /* CoreML */,
 				1FA111A31FE1E9A5006B239D /* iBeacon */,
 				1F9EEA9A1FD519FF00849BFC /* RemoteWebAPITableView */,
 				1FCD639C1FCD363C00AB0DBE /* AppDelegate.swift */,
@@ -150,6 +158,15 @@
 				1F9EEACB1FD78FFD00849BFC /* DemoProject-Bridging-Header.h */,
 			);
 			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		1FE286631FEF842E0003B898 /* CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */,
+				1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */,
+			);
+			path = CoreML;
 			sourceTree = "<group>";
 		};
 		3740E90B56B5135FE41DD3B3 /* Pods */ = {
@@ -238,6 +255,7 @@
 				1F9EEA781FD1351800849BFC /* Page3ViewController.xib in Resources */,
 				1FCD63A71FCD363C00AB0DBE /* Assets.xcassets in Resources */,
 				1F9EEA9E1FD51A6A00849BFC /* RemoteAPITableViewViewController.xib in Resources */,
+				1FE286671FEF84CA0003B898 /* CoreMLViewController.xib in Resources */,
 				1F9EEA6C1FD134C900849BFC /* PageViewController.xib in Resources */,
 				1FCD63B81FCD44F200AB0DBE /* HomeTableViewCell.xib in Resources */,
 				1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */,
@@ -319,6 +337,8 @@
 				1FCD63B71FCD44F200AB0DBE /* HomeTableViewCell.swift in Sources */,
 				1FCD639F1FCD363C00AB0DBE /* ViewController.swift in Sources */,
 				1FCD63A51FCD363C00AB0DBE /* DemoProject.xcdatamodeld in Sources */,
+				1FE286691FEFE9390003B898 /* Inceptionv3.mlmodel in Sources */,
+				1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */,
 				1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */,
 				1FCD639D1FCD363C00AB0DBE /* AppDelegate.swift in Sources */,
 				1F9EEA6B1FD134C900849BFC /* PageViewController.swift in Sources */,

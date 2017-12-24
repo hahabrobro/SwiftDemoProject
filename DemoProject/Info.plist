@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>pls</string>
+	<key>NSCameraUsageDescription</key>
+	<string>pls1</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>pls2</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>允許使用GPS1</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>

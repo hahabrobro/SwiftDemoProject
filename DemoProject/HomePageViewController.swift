@@ -15,7 +15,10 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             DemoProjectList.PageViewControllerTutorial,
             DemoProjectList.AccessRemoteAPItoTableView
         ],
-        [DemoProjectList.iBeacon]
+        [
+            DemoProjectList.iBeacon,
+            DemoProjectList.CoreML
+        ]
     ]
     enum DemoProjectList {
         case AutolayoutTutorial
@@ -23,8 +26,7 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         case AccessRemoteAPItoTableView
         //Section 2
         case iBeacon
-        case temp1
-        case temp2
+        case CoreML
         case temp3
     }
     @IBOutlet weak var HomeTableView: UITableView!
@@ -101,6 +103,8 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             self.navigationController?.pushViewController(RemoteAPITableViewViewController(), animated: true)
         case .iBeacon:
             self.navigationController?.pushViewController(iBeaconViewController(), animated: true)
+        case .CoreML:
+            self.navigationController?.pushViewController(CoreMLViewController(), animated: true)
         default:
             print(whichcase)
         }
