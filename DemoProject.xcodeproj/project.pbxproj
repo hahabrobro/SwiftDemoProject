@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1F9DEF901FFFBC9300944522 /* VisionForFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DEF8E1FFFBC9300944522 /* VisionForFaceViewController.swift */; };
 		1F9DEF911FFFBC9300944522 /* VisionForFaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DEF8F1FFFBC9300944522 /* VisionForFaceViewController.xib */; };
+		1F9DEF971FFFBF8700944522 /* VisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9DEF951FFFBF8700944522 /* VisionViewController.xib */; };
+		1F9DEF981FFFBF8700944522 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9DEF961FFFBF8700944522 /* VisionViewController.swift */; };
 		1F9EEA6B1FD134C900849BFC /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA691FD134C900849BFC /* PageViewController.swift */; };
 		1F9EEA6C1FD134C900849BFC /* PageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9EEA6A1FD134C900849BFC /* PageViewController.xib */; };
 		1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9EEA6D1FD134FF00849BFC /* Page1ViewController.swift */; };
@@ -40,8 +42,6 @@
 		1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */; };
 		1FE286671FEF84CA0003B898 /* CoreMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */; };
 		1FE2866B1FEFFD420003B898 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */; };
-		1FE2866F1FEFFDE50003B898 /* VisionForTextViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2866D1FEFFDE50003B898 /* VisionForTextViewcontroller.swift */; };
-		1FE286701FEFFDE50003B898 /* VisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE2866E1FEFFDE50003B898 /* VisionViewController.xib */; };
 		59F613E71D45549368C452F7 /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277C5F37F6291EFF6A0DCD51 /* Pods_DemoProject.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +49,8 @@
 		0289B39A1566DEE297B12442 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		1F9DEF8E1FFFBC9300944522 /* VisionForFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionForFaceViewController.swift; sourceTree = "<group>"; };
 		1F9DEF8F1FFFBC9300944522 /* VisionForFaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisionForFaceViewController.xib; sourceTree = "<group>"; };
+		1F9DEF951FFFBF8700944522 /* VisionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VisionViewController.xib; path = ../../../../../../Desktop/VisionViewController.xib; sourceTree = "<group>"; };
+		1F9DEF961FFFBF8700944522 /* VisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VisionViewController.swift; path = ../../../../../../Desktop/VisionViewController.swift; sourceTree = "<group>"; };
 		1F9EEA691FD134C900849BFC /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		1F9EEA6A1FD134C900849BFC /* PageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageViewController.xib; sourceTree = "<group>"; };
 		1F9EEA6D1FD134FF00849BFC /* Page1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
@@ -83,8 +85,6 @@
 		1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
 		1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreMLViewController.xib; sourceTree = "<group>"; };
 		1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
-		1FE2866D1FEFFDE50003B898 /* VisionForTextViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionForTextViewcontroller.swift; sourceTree = "<group>"; };
-		1FE2866E1FEFFDE50003B898 /* VisionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisionViewController.xib; sourceTree = "<group>"; };
 		277C5F37F6291EFF6A0DCD51 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E15255B5301EDEE9A8EAF8 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +108,15 @@
 				1F9DEF8F1FFFBC9300944522 /* VisionForFaceViewController.xib */,
 			);
 			path = Vision_ForFace;
+			sourceTree = "<group>";
+		};
+		1F9DEF941FFFBF6000944522 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				1F9DEF961FFFBF8700944522 /* VisionViewController.swift */,
+				1F9DEF951FFFBF8700944522 /* VisionViewController.xib */,
+			);
+			path = Vision;
 			sourceTree = "<group>";
 		};
 		1F9EEA9A1FD519FF00849BFC /* RemoteWebAPITableView */ = {
@@ -158,9 +167,9 @@
 		1FCD639B1FCD363C00AB0DBE /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				1F9DEF941FFFBF6000944522 /* Vision */,
 				1F9DEF8D1FFFBC6D00944522 /* Vision_ForFace */,
 				1FCD2E961FF4BC1800D892F3 /* BlueTooth */,
-				1FE2866C1FEFFD7C0003B898 /* Vision_ForText */,
 				1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */,
 				1FE286631FEF842E0003B898 /* CoreML */,
 				1FA111A31FE1E9A5006B239D /* iBeacon */,
@@ -200,15 +209,6 @@
 				1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */,
 			);
 			path = CoreML;
-			sourceTree = "<group>";
-		};
-		1FE2866C1FEFFD7C0003B898 /* Vision_ForText */ = {
-			isa = PBXGroup;
-			children = (
-				1FE2866D1FEFFDE50003B898 /* VisionForTextViewcontroller.swift */,
-				1FE2866E1FEFFDE50003B898 /* VisionViewController.xib */,
-			);
-			path = Vision_ForText;
 			sourceTree = "<group>";
 		};
 		3740E90B56B5135FE41DD3B3 /* Pods */ = {
@@ -305,8 +305,8 @@
 				1F9DEF911FFFBC9300944522 /* VisionForFaceViewController.xib in Resources */,
 				1F9EEA701FD134FF00849BFC /* Page1ViewController.xib in Resources */,
 				1FCD63A21FCD363C00AB0DBE /* Main.storyboard in Resources */,
+				1F9DEF971FFFBF8700944522 /* VisionViewController.xib in Resources */,
 				1FA111A71FE1E9BF006B239D /* iBeaconViewController.xib in Resources */,
-				1FE286701FEFFDE50003B898 /* VisionViewController.xib in Resources */,
 				1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,9 +382,9 @@
 				1FCD63B71FCD44F200AB0DBE /* HomeTableViewCell.swift in Sources */,
 				1FCD639F1FCD363C00AB0DBE /* ViewController.swift in Sources */,
 				1FCD63A51FCD363C00AB0DBE /* DemoProject.xcdatamodeld in Sources */,
+				1F9DEF981FFFBF8700944522 /* VisionViewController.swift in Sources */,
 				1FE2866B1FEFFD420003B898 /* Inceptionv3.mlmodel in Sources */,
 				1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */,
-				1FE2866F1FEFFDE50003B898 /* VisionForTextViewcontroller.swift in Sources */,
 				1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */,
 				1FCD2E9D1FF4BC7300D892F3 /* BlueToothViewController.swift in Sources */,
 				1FCD639D1FCD363C00AB0DBE /* AppDelegate.swift in Sources */,

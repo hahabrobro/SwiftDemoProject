@@ -111,7 +111,7 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         case .CoreML:
             self.navigationController?.pushViewController(CoreMLViewController(), animated: true)
         case .Vision:
-            self.navigationController?.pushViewController(VisionForTextViewcontroller(), animated: true)
+            self.navigationController?.pushViewController(VisionViewController(), animated: true)
         
         default:
             print(whichcase)
