@@ -19,7 +19,7 @@ class CoreMLViewController: UIViewController,UINavigationControllerDelegate {
         super.viewDidLoad()
         
         let camera=UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(self.cameraAction(_:)))
-        self.navigationItem.title="CoreML"
+        self.navigationItem.title="CoreML物件識別"
         self.navigationItem.rightBarButtonItem=camera
         
         // Do any additional setup after loading the view.

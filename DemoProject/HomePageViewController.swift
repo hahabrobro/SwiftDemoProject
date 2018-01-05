@@ -17,7 +17,9 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         ],
         [
             DemoProjectList.iBeacon,
-            DemoProjectList.CoreML
+            DemoProjectList.BlueTooth,
+            DemoProjectList.CoreML,
+            DemoProjectList.Vision
         ]
     ]
     enum DemoProjectList {
@@ -26,8 +28,9 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         case AccessRemoteAPItoTableView
         //Section 2
         case iBeacon
+        case BlueTooth
         case CoreML
-        case temp3
+        case Vision
     }
     @IBOutlet weak var HomeTableView: UITableView!
     override func viewDidLoad() {
@@ -103,8 +106,13 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             self.navigationController?.pushViewController(RemoteAPITableViewViewController(), animated: true)
         case .iBeacon:
             self.navigationController?.pushViewController(iBeaconViewController(), animated: true)
+        case .BlueTooth:
+            self.navigationController?.pushViewController(BlueToothViewController(), animated: true)
         case .CoreML:
             self.navigationController?.pushViewController(CoreMLViewController(), animated: true)
+        case .Vision:
+            self.navigationController?.pushViewController(VisionForTextViewcontroller(), animated: true)
+        
         default:
             print(whichcase)
         }
