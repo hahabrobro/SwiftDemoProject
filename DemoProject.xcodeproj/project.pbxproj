@@ -39,6 +39,18 @@
 		1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */; };
 		1FCD63EF1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */; };
 		1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */; };
+		1FE1143E2019739A007ECB25 /* RxSwiftTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1143C2019739A007ECB25 /* RxSwiftTableViewController.swift */; };
+		1FE1143F2019739A007ECB25 /* RxSwiftTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1143D2019739A007ECB25 /* RxSwiftTableViewController.xib */; };
+		1FE11443201F1DA9007ECB25 /* SolarSystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE11441201F1DA9007ECB25 /* SolarSystemViewController.swift */; };
+		1FE11444201F1DA9007ECB25 /* SolarSystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE11442201F1DA9007ECB25 /* SolarSystemViewController.xib */; };
+		1FE11448201F25C9007ECB25 /* RocketShipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE11446201F25C9007ECB25 /* RocketShipViewController.swift */; };
+		1FE11449201F25C9007ECB25 /* RocketShipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE11447201F25C9007ECB25 /* RocketShipViewController.xib */; };
+		1FE1144C201F60E7007ECB25 /* RxSwiftDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1144A201F60E7007ECB25 /* RxSwiftDemoViewController.swift */; };
+		1FE1144D201F60E7007ECB25 /* RxSwiftDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE1144B201F60E7007ECB25 /* RxSwiftDemoViewController.xib */; };
+		1FE1144F20204B1B007ECB25 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1144E20204B1B007ECB25 /* ViewModel.swift */; };
+		1FE114522021AB85007ECB25 /* rocketship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 1FE114512021AB85007ECB25 /* rocketship.scn */; };
+		1FE11455202302B3007ECB25 /* reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 1FE11453202302B3007ECB25 /* reactor.scnp */; };
+		1FE11456202302B3007ECB25 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FE11454202302B3007ECB25 /* spark.png */; };
 		1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */; };
 		1FE286671FEF84CA0003B898 /* CoreMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */; };
 		1FE2866B1FEFFD420003B898 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */; };
@@ -82,6 +94,18 @@
 		1FCD63E61FCD673A00AB0DBE /* SimpleStopWatchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleStopWatchViewController.xib; sourceTree = "<group>"; };
 		1FCD63ED1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutolayoutTutorialViewController.swift; sourceTree = "<group>"; };
 		1FCD63EE1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutolayoutTutorialViewController.xib; sourceTree = "<group>"; };
+		1FE1143C2019739A007ECB25 /* RxSwiftTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftTableViewController.swift; sourceTree = "<group>"; };
+		1FE1143D2019739A007ECB25 /* RxSwiftTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftTableViewController.xib; sourceTree = "<group>"; };
+		1FE11441201F1DA9007ECB25 /* SolarSystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewController.swift; sourceTree = "<group>"; };
+		1FE11442201F1DA9007ECB25 /* SolarSystemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SolarSystemViewController.xib; sourceTree = "<group>"; };
+		1FE11446201F25C9007ECB25 /* RocketShipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketShipViewController.swift; sourceTree = "<group>"; };
+		1FE11447201F25C9007ECB25 /* RocketShipViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RocketShipViewController.xib; sourceTree = "<group>"; };
+		1FE1144A201F60E7007ECB25 /* RxSwiftDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftDemoViewController.swift; sourceTree = "<group>"; };
+		1FE1144B201F60E7007ECB25 /* RxSwiftDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxSwiftDemoViewController.xib; sourceTree = "<group>"; };
+		1FE1144E20204B1B007ECB25 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1FE114512021AB85007ECB25 /* rocketship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = rocketship.scn; sourceTree = "<group>"; };
+		1FE11453202302B3007ECB25 /* reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = reactor.scnp; sourceTree = "<group>"; };
+		1FE11454202302B3007ECB25 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		1FE286641FEF84CA0003B898 /* CoreMLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLViewController.swift; sourceTree = "<group>"; };
 		1FE286651FEF84CA0003B898 /* CoreMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreMLViewController.xib; sourceTree = "<group>"; };
 		1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
@@ -167,10 +191,14 @@
 		1FCD639B1FCD363C00AB0DBE /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				1F9DEF941FFFBF6000944522 /* Vision */,
-				1F9DEF8D1FFFBC6D00944522 /* Vision_ForFace */,
-				1FCD2E961FF4BC1800D892F3 /* BlueTooth */,
+				1FE114502021A896007ECB25 /* 3D Model */,
+				1FE11445201F257A007ECB25 /* ARKit_with_Rocketship */,
+				1FE11440201F1D14007ECB25 /* ARKit_with_Solar_System */,
+				1FE1143B20197340007ECB25 /* RxSwift */,
 				1FE2866A1FEFFD420003B898 /* Inceptionv3.mlmodel */,
+				1F9DEF8D1FFFBC6D00944522 /* Vision_ForFace */,
+				1F9DEF941FFFBF6000944522 /* Vision */,
+				1FCD2E961FF4BC1800D892F3 /* BlueTooth */,
 				1FE286631FEF842E0003B898 /* CoreML */,
 				1FA111A31FE1E9A5006B239D /* iBeacon */,
 				1F9EEA9A1FD519FF00849BFC /* RemoteWebAPITableView */,
@@ -200,6 +228,46 @@
 				1F9EEACB1FD78FFD00849BFC /* DemoProject-Bridging-Header.h */,
 			);
 			path = DemoProject;
+			sourceTree = "<group>";
+		};
+		1FE1143B20197340007ECB25 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				1FE1143C2019739A007ECB25 /* RxSwiftTableViewController.swift */,
+				1FE1143D2019739A007ECB25 /* RxSwiftTableViewController.xib */,
+				1FE1144A201F60E7007ECB25 /* RxSwiftDemoViewController.swift */,
+				1FE1144B201F60E7007ECB25 /* RxSwiftDemoViewController.xib */,
+				1FE1144E20204B1B007ECB25 /* ViewModel.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		1FE11440201F1D14007ECB25 /* ARKit_with_Solar_System */ = {
+			isa = PBXGroup;
+			children = (
+				1FE11441201F1DA9007ECB25 /* SolarSystemViewController.swift */,
+				1FE11442201F1DA9007ECB25 /* SolarSystemViewController.xib */,
+			);
+			path = ARKit_with_Solar_System;
+			sourceTree = "<group>";
+		};
+		1FE11445201F257A007ECB25 /* ARKit_with_Rocketship */ = {
+			isa = PBXGroup;
+			children = (
+				1FE11446201F25C9007ECB25 /* RocketShipViewController.swift */,
+				1FE11447201F25C9007ECB25 /* RocketShipViewController.xib */,
+			);
+			path = ARKit_with_Rocketship;
+			sourceTree = "<group>";
+		};
+		1FE114502021A896007ECB25 /* 3D Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FE114512021AB85007ECB25 /* rocketship.scn */,
+				1FE11453202302B3007ECB25 /* reactor.scnp */,
+				1FE11454202302B3007ECB25 /* spark.png */,
+			);
+			path = "3D Model";
 			sourceTree = "<group>";
 		};
 		1FE286631FEF842E0003B898 /* CoreML */ = {
@@ -294,17 +362,24 @@
 				1F9EEA741FD1350B00849BFC /* Page2ViewController.xib in Resources */,
 				1FCD2E9E1FF4BC7300D892F3 /* BlueToothViewController.xib in Resources */,
 				1FCD63B41FCD420900AB0DBE /* HomePageViewController.xib in Resources */,
+				1FE1143F2019739A007ECB25 /* RxSwiftTableViewController.xib in Resources */,
 				1FCD63AA1FCD363C00AB0DBE /* LaunchScreen.storyboard in Resources */,
 				1F9EEA781FD1351800849BFC /* Page3ViewController.xib in Resources */,
 				1FCD63A71FCD363C00AB0DBE /* Assets.xcassets in Resources */,
 				1F9EEA9E1FD51A6A00849BFC /* RemoteAPITableViewViewController.xib in Resources */,
 				1FE286671FEF84CA0003B898 /* CoreMLViewController.xib in Resources */,
+				1FE11455202302B3007ECB25 /* reactor.scnp in Resources */,
 				1F9EEA6C1FD134C900849BFC /* PageViewController.xib in Resources */,
 				1FCD63B81FCD44F200AB0DBE /* HomeTableViewCell.xib in Resources */,
 				1FCD63E81FCD673A00AB0DBE /* SimpleStopWatchViewController.xib in Resources */,
+				1FE11456202302B3007ECB25 /* spark.png in Resources */,
+				1FE11449201F25C9007ECB25 /* RocketShipViewController.xib in Resources */,
 				1F9DEF911FFFBC9300944522 /* VisionForFaceViewController.xib in Resources */,
+				1FE1144D201F60E7007ECB25 /* RxSwiftDemoViewController.xib in Resources */,
 				1F9EEA701FD134FF00849BFC /* Page1ViewController.xib in Resources */,
+				1FE114522021AB85007ECB25 /* rocketship.scn in Resources */,
 				1FCD63A21FCD363C00AB0DBE /* Main.storyboard in Resources */,
+				1FE11444201F1DA9007ECB25 /* SolarSystemViewController.xib in Resources */,
 				1F9DEF971FFFBF8700944522 /* VisionViewController.xib in Resources */,
 				1FA111A71FE1E9BF006B239D /* iBeaconViewController.xib in Resources */,
 				1FCD63F01FCEBCD200AB0DBE /* AutolayoutTutorialViewController.xib in Resources */,
@@ -336,10 +411,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,15 +456,20 @@
 				1FCD63E71FCD673A00AB0DBE /* SimpleStopWatchViewController.swift in Sources */,
 				1FCD63EF1FCEBCD200AB0DBE /* AutolayoutTutorialViewController.swift in Sources */,
 				1F9EEA771FD1351800849BFC /* Page3ViewController.swift in Sources */,
+				1FE1144F20204B1B007ECB25 /* ViewModel.swift in Sources */,
 				1FA111A61FE1E9BF006B239D /* iBeaconViewController.swift in Sources */,
 				1FCD63B31FCD420900AB0DBE /* HomePageViewController.swift in Sources */,
+				1FE1143E2019739A007ECB25 /* RxSwiftTableViewController.swift in Sources */,
 				1FCD63B71FCD44F200AB0DBE /* HomeTableViewCell.swift in Sources */,
 				1FCD639F1FCD363C00AB0DBE /* ViewController.swift in Sources */,
 				1FCD63A51FCD363C00AB0DBE /* DemoProject.xcdatamodeld in Sources */,
+				1FE11443201F1DA9007ECB25 /* SolarSystemViewController.swift in Sources */,
 				1F9DEF981FFFBF8700944522 /* VisionViewController.swift in Sources */,
 				1FE2866B1FEFFD420003B898 /* Inceptionv3.mlmodel in Sources */,
 				1FE286661FEF84CA0003B898 /* CoreMLViewController.swift in Sources */,
+				1FE1144C201F60E7007ECB25 /* RxSwiftDemoViewController.swift in Sources */,
 				1F9EEA6F1FD134FF00849BFC /* Page1ViewController.swift in Sources */,
+				1FE11448201F25C9007ECB25 /* RocketShipViewController.swift in Sources */,
 				1FCD2E9D1FF4BC7300D892F3 /* BlueToothViewController.swift in Sources */,
 				1FCD639D1FCD363C00AB0DBE /* AppDelegate.swift in Sources */,
 				1F9EEA6B1FD134C900849BFC /* PageViewController.swift in Sources */,

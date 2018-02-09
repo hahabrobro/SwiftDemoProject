@@ -19,7 +19,10 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             DemoProjectList.iBeacon,
             DemoProjectList.BlueTooth,
             DemoProjectList.CoreML,
-            DemoProjectList.Vision
+            DemoProjectList.Vision,
+            DemoProjectList.RxSwift,
+            DemoProjectList.ARKit_With_Solar_System,
+            DemoProjectList.ARKit_With_RocketShip
         ]
     ]
     enum DemoProjectList {
@@ -31,21 +34,24 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         case BlueTooth
         case CoreML
         case Vision
+        case RxSwift
+        case ARKit_With_Solar_System
+        case ARKit_With_RocketShip
     }
     @IBOutlet weak var HomeTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-//        HomeTableView.register(HomeTableViewCell.self, forCellReuseIdentifier: "DemoListTableViewCell")
-//        tb.register(UINib.init(nibName: "MyTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "cell");
+        //        HomeTableView.register(HomeTableViewCell.self, forCellReuseIdentifier: "DemoListTableViewCell")
+        //        tb.register(UINib.init(nibName: "MyTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "cell");
         HomeTableView.register(UINib.init(nibName: "HomeTableViewCell", bundle: Bundle.main), forCellReuseIdentifier: "DemoListTableViewCell")
         HomeTableView.delegate = self
         HomeTableView.dataSource = self
         
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -88,9 +94,9 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
         }
         
         // 顯示的內容
-//        if let myLabel = cell.textLabel {
-//            myLabel.text = "\(info[indexPath.section][indexPath.row])"
-//        }
+        //        if let myLabel = cell.textLabel {
+        //            myLabel.text = "\(info[indexPath.section][indexPath.row])"
+        //        }
         
         return cell
     }
@@ -112,19 +118,25 @@ class HomePageViewController: UIViewController, UITableViewDelegate, UITableView
             self.navigationController?.pushViewController(CoreMLViewController(), animated: true)
         case .Vision:
             self.navigationController?.pushViewController(VisionViewController(), animated: true)
-        
+        case .RxSwift:
+            self.navigationController?.pushViewController(RxSwiftTableViewController(), animated: true)
+        case .ARKit_With_Solar_System:
+            self.navigationController?.pushViewController(SolarSystemViewController(), animated: true)
+        case.ARKit_With_RocketShip:
+            self.navigationController?.pushViewController(RocketShipViewController(), animated: true)
+            
         default:
             print(whichcase)
         }
     }
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

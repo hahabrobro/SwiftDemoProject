@@ -7,9 +7,17 @@
 //
 
 import UIKit
+import CoreML
+import Vision
+import ImageIO
 
 class VisionForFaceViewController: UIViewController {
 
+    @IBOutlet weak var buttonTargetImage: UIButton!
+    @IBOutlet weak var buttonOriginalImage: UIButton!
+    @IBOutlet weak var resultLabel: UILabel!
+    
+    var selectImage:UIImage?
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,16 +28,64 @@ class VisionForFaceViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func pressedChoosePhoto(_ sender: UIButton) {
+        self.chooseImage()
     }
-    */
+    func processImage(image:UIImage) {
+        self.preformRequestForFaceRectangle(image: image)
+        //
+        self.selectImage=image
+        
+    }
+    func preformRequestForFaceRectangle(image:UIImage) {
+        self.resultLabel.text="處理中"
+        
+        let handler = VNImageRequestHandler(cgImage: image.cgImage!)
+        
+        do{
+            let request = VNDetectFaceRectanglesRequest(completionHandler: nil)
+            try handler.perform([request])
+        }
+        catch{
+            print(error)
+        }
+    }
+    func handleFaceFetection(request:VNRequest,error:Error?) {
+        //no face
+        guard let observations=request.results as? [VNFaceObservation] else {
+            fatalError("No_face !")
+        }
+        
+        self.resultLabel.text="找到 \(observations.count) 張臉"
+        for faceobservation in observations {
+            self.addFaceContour(forObservation: faceobservation, toView: self.buttonOriginalImage)
+        }
+    }
+    
+    func addFaceContour(forObservation face:VNFaceObservation,toView view:UIView) {
+        //畫出輪廓
+        //計算輪廓大小
+    }
+
 
 }
+extension VisionForFaceViewController :UIImagePickerControllerDelegate,UINavigationControllerDelegate
+{
+    func chooseImage() {
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .savedPhotosAlbum
+        
+        present(picker, animated: true)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        guard  let uiImage=info[UIImagePickerControllerOriginalImage] as? UIImage else {
+            fatalError("no image selected")
+        }
+        
+        self.buttonOriginalImage.setBackgroundImage(uiImage, for: .normal)
+        self.processImage(image: uiImage)
+    }
+}
+

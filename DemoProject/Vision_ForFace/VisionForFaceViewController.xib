@@ -1,13 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VisionForFaceViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VisionForFaceViewController" customModule="DemoProject" customModuleProvider="target">
             <connections>
+                <outlet property="buttonOriginalImage" destination="y8Z-eQ-XzN" id="OF5-B0-n7i"/>
+                <outlet property="buttonTargetImage" destination="L7b-xp-jat" id="mKJ-95-bI2"/>
+                <outlet property="resultLabel" destination="Wd4-sT-1mF" id="U8b-f4-HWs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -15,8 +22,51 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wd4-sT-1mF">
+                    <rect key="frame" x="0.0" y="295" width="375" height="76"/>
+                    <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="QJc-Sh-ZDG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8Z-eQ-XzN">
+                    <rect key="frame" x="0.0" y="20" width="375" height="250"/>
+                    <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="4N3-zO-uMs"/>
+                    </constraints>
+                    <state key="normal" title="Choose_Photo"/>
+                    <connections>
+                        <action selector="pressedChoosePhoto:" destination="-1" eventType="touchUpInside" id="E8r-rU-dm3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7b-xp-jat">
+                    <rect key="frame" x="0.0" y="396" width="375" height="271"/>
+                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="L7b-xp-jat" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5VW-2a-hhF"/>
+                <constraint firstItem="Wd4-sT-1mF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AAH-QE-s1o"/>
+                <constraint firstItem="Wd4-sT-1mF" firstAttribute="top" secondItem="y8Z-eQ-XzN" secondAttribute="bottom" constant="25" id="I0m-bA-JXn"/>
+                <constraint firstItem="y8Z-eQ-XzN" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="KgU-cg-2Eb"/>
+                <constraint firstItem="y8Z-eQ-XzN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MjS-Ey-VYq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="L7b-xp-jat" secondAttribute="bottom" id="PVa-xo-h4B"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="L7b-xp-jat" secondAttribute="trailing" id="UCn-eo-z6d"/>
+                <constraint firstItem="y8Z-eQ-XzN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="fet-aQ-KSC"/>
+                <constraint firstItem="y8Z-eQ-XzN" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="jXW-fP-pc0"/>
+                <constraint firstItem="Wd4-sT-1mF" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="jsh-OF-MFU"/>
+                <constraint firstItem="L7b-xp-jat" firstAttribute="top" secondItem="Wd4-sT-1mF" secondAttribute="bottom" constant="25" id="r1W-BX-ezR"/>
+                <constraint firstItem="L7b-xp-jat" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zLb-CG-RXB"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
         </view>
     </objects>
 </document>

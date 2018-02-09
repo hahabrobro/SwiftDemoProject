@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 將 UIWindow 設置為可見的
         self.window!.makeKeyAndVisible()
+        self.window?.tintColor = UIColor.orange
         return true
     }
 
